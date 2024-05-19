@@ -2,6 +2,9 @@
 
   // Parent Main
 
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
   grid-area: navigatie;
   padding: 1.5rem;
   width: 13.625rem;
@@ -11,7 +14,6 @@
 
   &__link {
     gap: .5rem;
-    margin-bottom: 1.25rem;
   }
 
 
