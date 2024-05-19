@@ -1,0 +1,76 @@
+.l-main {
+
+  // Parent Main
+
+  grid-area: main;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+
+  // Childrens
+
+  &__video {
+    padding: 1rem;
+    display: grid;
+
+    grid-template:
+      "thumb" auto
+      / auto
+    ;
+
+    row-gap: 1rem;
+    max-width: max-content;
+  }
+
+
+  // Grandchildren
+
+  &__thumb {
+    width: 15.625rem;
+    height: 8.75rem;
+    object-fit: contain;
+    object-position: left top;
+    grid-area: thumb;
+  }
+
+  &__channel {
+    width: 15.625rem;
+    display: grid;
+
+    grid-template:
+      "avatar title" auto
+      "avatar info" auto
+      / auto auto
+    ;
+
+    gap: .5rem;
+  }
+
+
+  // Great Grandchildren
+
+  &__avatar {
+    grid-area: avatar;
+    width: 2.625rem;
+    height: 2.625rem;
+
+  }
+
+  &__title,
+  &__info {
+    font-size: .9rem;
+  }
+
+  &__title {
+    grid-area: title;
+    font-weight: bold;
+  }
+
+  &__info {
+    grid-area: info;
+    color: var(--gray);
+  }
+}

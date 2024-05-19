@@ -1,0 +1,68 @@
+.c-icon {
+
+  // Parent Main
+
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  cursor: pointer;
+
+
+  // Modifiers
+
+  &--menu {
+    background-image: url('../../images/icons/menu-icon.svg');
+  }
+
+  &--search {
+    background-image: url('../../images/icons/search-icon.svg');
+  }
+
+  &--video {
+    background-image: url('../../images/icons/video-icon.svg');
+  }
+
+  &--bell {
+    background-image: url('../../images/icons/bell-icon.svg');
+  }
+
+  &--home {
+    background-image: url('../../images/icons/home-icon.svg');
+  }
+
+  &--compass {
+    background-image: url('../../images/icons/compass-icon.svg');
+  }
+
+  &--youtube {
+    background-image: url('../../images/icons/youtube-icon.svg');
+  }
+
+  &--disc {
+    background-image: url('../../images/icons/disc-icon.svg');
+  }
+
+  &--thumbs-up {
+    background-image: url('../../images/icons/thumbs-up-icon.svg');
+  }
+
+  &--clock {
+    background-image: url('../../images/icons/clock-icon.svg');
+  }
+
+  &--download {
+    background-image: url('../../images/icons/download-icon.svg');
+  }
+
+  &--film {
+    background-image: url('../../images/icons/film-icon.svg');
+  }
+
+  &--book {
+    background-image: url('../../images/icons/book-icon.svg');
+  }
+
+  &--award {
+    background-image: url('../../images/icons/award-icon.svg');
+  }
+}

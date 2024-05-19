@@ -1,0 +1,46 @@
+.l-header {
+
+  // Parent Main
+
+  grid-area: header;
+  height: 3.5rem;
+  padding: 0 1.5rem;
+
+
+  // Childrens
+
+  &__left {
+    gap: 2rem;
+  }
+
+  &__center {
+    width: 25.25rem;
+    border: 1px solid var(--gray-01);
+  }
+
+  &__right {
+    gap: 1.5rem;
+  }
+
+
+  // Grandchildren
+
+  &__input,
+  &__button {
+    padding: 0 1rem;
+    height: 2.5rem;
+    border: 0;
+  }
+
+  &__input {
+    flex-grow: 1;
+  }
+
+  &__button {
+    border-left: 1px solid var(--gray-01);
+    background-color: var(--gray-02);
+  }
+
+  &__avatar {
+  }
+}

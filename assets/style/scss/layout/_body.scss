@@ -1,0 +1,12 @@
+.l-body {
+
+  // Parent Main
+
+  display: grid;
+
+  grid-template:
+    "header header" auto
+    "navigatie main" auto
+    / auto 1fr
+  ;
+}
