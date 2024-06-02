@@ -1,3 +1,3 @@
 # youtube-clone-com-grid
 
-https://josehenriques10.github.io/youtube-clone-com-grid/
+https://josealvesdev.github.io/youtube-clone-com-grid/
